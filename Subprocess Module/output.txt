@@ -1,0 +1,6 @@
+total 17
+drwxr-xr-x 1 souma souma   0 Jun 26 20:17 .
+drwxr-xr-x 1 souma souma   0 Jun 26 18:25 ..
+-rw-r--r-- 1 souma souma 790 Jun 26 20:17 Subprocess module.py
+-rw-r--r-- 1 souma souma 133 Jun 26 15:22 ls_cmd_log.txt
+-rw-r--r-- 1 souma souma   0 Jun 26 20:17 output.txt

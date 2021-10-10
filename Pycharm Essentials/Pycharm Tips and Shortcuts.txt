@@ -1,0 +1,2 @@
+1) Run in console- Edit Configuration -> Check Run in console. This allows Shift + F10 to run code in console and show the variables etc
+%reset removes created variables
