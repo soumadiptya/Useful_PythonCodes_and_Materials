@@ -1,0 +1,127 @@
+<!-- 1) Create a button with the text click inside -->
+<button>
+    Click
+</button>
+
+<!-- 2) Create two buttons 1 with your name and 2 with your favourite food -->
+<button>
+    Simon
+</button>
+<button>
+    Chocolate
+</button>
+
+<!-- Create a paragraph with the text Hello inside -->
+<p>
+    Hello World!
+</p>
+
+<!-- Create a paragraph below the previous paragraph and write about something you did today -->
+<br>
+<br>
+<p>
+    Hello World!  <br>
+
+    Today I woke up and started learning HTMl and CSS
+</p>
+
+<!-- Create a link to google.com -->
+<a href="https://www.google.com" target="_blank">
+    Search with Google
+</a>
+
+<!-- Create a design for Amazon -->
+<a href="www.amazon.com" target="_blank">
+    Back to Amazon
+</a>
+<br>
+<br>
+<p>
+    Nike Black Running Shoes
+    <br>
+    <br>
+    $39- in stock.
+    <br>
+    <br>
+    Free delivery tomorrow.
+    <br>
+    <br>
+    <style>
+        .Buy_Now{
+            background-color: red;
+            border: none;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: large;
+            font-style: normal;
+            color: white;
+            height: 36px;
+            width: 100px;
+            background-color: rgb(214, 0, 0);
+            cursor: pointer;
+            border-radius: 2px;
+            margin-right: 8px;
+            margin-left: 10px;
+            transition: opacity 15ms;
+        }
+
+        .Buy_Now:hover{
+            opacity: 0.5;
+        }
+
+        .Buy_Now:active{
+            opacity: 0.3;
+        }
+
+        .JOIN{
+            background-color: white;
+            color: rgb(28, 7, 215);
+            height: 36px;
+            width: 62px;
+            border-radius: 10;
+            border-color: rgb(41, 118, 211);
+            border-style: solid;
+            border-width: 2px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: large;
+            cursor: pointer;
+            transition: background-color 15ms, color 1s;
+        }
+
+        .JOIN:hover{
+            background-color: rgb(12, 125, 224);
+            color: white;
+        }
+
+        .JOIN:active{
+            opacity: 0.5;
+        }
+
+        .Tweet{
+            background-color: rgb(66, 134, 236);
+            color: white;
+            height: 36px;
+            width: 80px;
+            border: none;
+            border-radius: 18px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 15px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: box-shadow 15ms;
+        }
+
+        .Tweet:hover{
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+        }
+
+    </style>
+    <button class="Tweet">
+        Tweet
+    </button> 
+    <button class="Buy_Now"> 
+        Buy Now
+    </button>
+    <button class="JOIN">
+        JOIN
+    </button>
+</p>
